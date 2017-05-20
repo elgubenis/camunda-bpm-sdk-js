@@ -18,21 +18,21 @@
   "contributors": [
     "Daniel Meyer <daniel.meyer@camunda.com>"
   ],
+  "main": "index.js",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://app.camunda.com/jira/browse/CAM/component/12351"
   },
   "homepage": "https://github.com/camunda/camunda-bpm-sdk-js",
-  "dependencies": {
-    "exposify": "https://github.com/camunda-third-party/exposify/archive/v0.2.0-transform-arguments-0.tar.gz",
-    "grunt": "0.4.5",
-    "grunt-browserify": "2.1.0",
-    "load-grunt-tasks": "0.5.0",
+  "dependencies": {    
     "q": "^1.4.1",
-    "superagent": "1.4.0",
-    "time-grunt": "0.3.2"
+    "superagent": "1.4.0"
   },
   "devDependencies": {
+    "grunt-browserify": "2.1.0",
+    "grunt": "0.4.5",
+    "load-grunt-tasks": "0.5.0",
+    "time-grunt": "0.3.2",
     "browserify": "4.1.10",
     "chai": "2.3.0",
     "fixturer": "git://github.com/camunda-third-party/fixturer",
